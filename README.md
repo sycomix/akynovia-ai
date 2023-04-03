@@ -1,7 +1,5 @@
 Hi there 👋
 
-**Akynovia/akynovia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 Here's some basic information about the Akynovia-ai project:
 
 - 🤖 Akynovia-ai is a Python script that uses the W3M browser to display information in the Linux terminal.
