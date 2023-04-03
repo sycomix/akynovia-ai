@@ -1,6 +1,8 @@
-import os
 import time
 import configparser
+from open_browser import open_browser
+from show_time import show_time
+from talk import talk
 
 # Configurações do assistente virtual
 config = configparser.ConfigParser()
@@ -11,15 +13,6 @@ name = config['User']['name']
 
 # Bem-vindo
 print(f'Bem-vindo, {name}!')
-
-# Função para exibir a hora atual
-def show_time():
-    current_time = time.strftime("%H:%M:%S")
-    print(f"A hora atual é {current_time}.")
-
-# Função para abrir o navegador w3m
-def open_browser(url):
-    os.system(f"w3m {url}")
 
 # Loop principal do assistente virtual
 while True:
@@ -32,6 +25,8 @@ while True:
     elif command.startswith("navegar "):
         url = command.split(" ")[1]
         open_browser(url)
+    elif command == "conversar":
+        talk()
     elif command == "sair":
         break
     else:
