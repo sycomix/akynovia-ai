@@ -1,5 +1,5 @@
 
-#Description:
+# Description:
 
 Akynovia-ai is a virtual assistant for Linux terminal based on the W3M browser that can perform various useful functions, including web searches, checking weather forecasts, and providing time information. The script is easy to use and can be easily customized through a simple configuration file.
 
@@ -14,7 +14,7 @@ Weather forecast: displays information about the weather forecast for a specifie
 Current time: displays the current system time.
 The script is easily customizable through a configuration file called config.ini. The configuration file allows you to add new functions to the virtual assistant and configure existing options, such as the default search engine.
 
-#Requirements:
+# Requirements:
 
 To run Akynovia-ai, you need to have Python 3 installed on your system and also the W3M browser. To install W3M on Debian 11, you can use the following command:
 
@@ -24,6 +24,6 @@ To install Python dependencies, simply run the following command:
 • pip3 install -r requirements.txt
 
 To run the script, simply navigate to the directory where the akynovia.py file is located and enter the following command in the terminal:
-python3 akynovia.py
+• python3 akynovia.py
 
 Hope that helps!
