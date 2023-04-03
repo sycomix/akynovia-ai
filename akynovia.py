@@ -27,7 +27,6 @@ else:
 # Bem-vindo
 print(f'Bem-vindo, {name}!')
 
-
 # Loop principal do assistente virtual
 while True:
     # Aguarda a entrada do usuário
