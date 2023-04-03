@@ -1,5 +1,5 @@
 Hi there 👋
-<!--
+
 **Akynovia/akynovia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here's some basic information about the Akynovia-ai project:
@@ -16,5 +16,4 @@ Here are some ideas to get you started:
 - 👯 I’m looking to collaborate on open source projects related to Python and artificial intelligence.
 - 💬 Ask me about the AKYNOVIA project or any questions related to Python and AI.
 - 📫 You can reach me by sending an email.
-- ⚡ Fun fact: The name "Akynovia-ai" is derived from "intelligence assistant" and "Akynovia" - where Akynovia is the name of a character in a book I'm working on about artificial intelligence..
--->
+- ⚡ Fun fact: The name "Akynovia-ai" is derived from "intelligence assistant" and "Akynovia" - where Akynovia is the name of a character in a book I'm working on about artificial intelligence.
