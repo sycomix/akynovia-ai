@@ -13,7 +13,7 @@ if 'User' in config and 'name' in config['User']:
     name = config['User']['name']
 else:
     # Pede o nome do usuário
-    name = input("Qual é o seu nome? ")
+    name = input("Qual é o seu nome?\n")
 
     # Cria a seção 'User' no arquivo config.ini
     if 'User' not in config:
