@@ -9,20 +9,11 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 
 # Verifica se o nome do usuário já está configurado
-name = None
 if 'User' in config and 'name' in config['User']:
     name = config['User']['name']
 else:
-    # Pede o nome do usuário
-    name = input("Qual é o seu nome? ")
-    # Cria a seção 'User' no arquivo config.ini
-    if 'User' not in config:
-        config['User'] = {}
-    # Atualiza o nome do usuário no arquivo config.ini
-    config['User']['name'] = name
-    with open('config.ini', 'w') as configfile:
-        config.write(configfile)
-        
+    name = "Usuário"
+
 # Bem-vindo
 print(f'Bem-vindo, {name}!')
 
