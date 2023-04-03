@@ -16,14 +16,10 @@ The script is easily customizable through a configuration file called config.ini
 
 # Requirements:
 
-To run Akynovia-ai, you need to have Python 3 installed on your system and also the W3M browser. To install W3M on Debian 11, you can use the following command:
+To run Akynovia-ai, you need to have Python 3 installed on your system and also the W3M browser. To install W3M on Debian 11, you can use the following command: sudo apt-get install w3m
 
-• sudo apt-get install w3m
-To install Python dependencies, simply run the following command:
+To install Python dependencies, simply run the following command: pip3 install -r requirements.txt
 
-• pip3 install -r requirements.txt
-
-To run the script, simply navigate to the directory where the akynovia.py file is located and enter the following command in the terminal:
-• python3 akynovia.py
+To run the script, simply navigate to the directory where the akynovia.py file is located and enter the following command in the terminal: python3 akynovia.py
 
 Hope that helps!
