@@ -1,4 +1,3 @@
-
 # Description:
 
 Akynovia-ai is a virtual assistant for Linux terminal, but that can also be executed in windows cmd, that can perform various useful functions, including web searches, checking weather forecasts, and providing time information. The script is easy to use and can be easily customized through a simple configuration file.
@@ -11,9 +10,12 @@ Akynovia-ai currently supports the following functions:
 
 Web search: allows searching for information on the web using Google.
 Current time: displays the current system time.
-The script is easily customizable through a configuration file called config.ini. The configuration file allows you to add new functions to the virtual assistant and configure existing options, such as the default search engine.
+The script is easily customizable through a configuration file called config.ini. 
+The configuration file allows you to add new functions to the virtual assistant and configure existing options, such as the default search engine.
 
 # Requirements:
+Install the project's dependencies by running the following command:
+pip install -r requirements.txt
 
 To run the script, simply navigate to the directory where the akynovia.py file is located and enter the following command in the terminal: 
 python3 akynovia.py
