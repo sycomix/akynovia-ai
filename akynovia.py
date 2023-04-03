@@ -4,15 +4,29 @@ from open_browser import open_browser
 from show_time import show_time
 from talk import talk
 
-# Configurações do assistente virtual
+# Abre o arquivo config.ini
 config = configparser.ConfigParser()
 config.read('config.ini')
 
-# Nome do usuário
-name = config['User']['name']
+# Verifica se o nome do usuário já está configurado
+if 'User' in config and 'name' in config['User']:
+    name = config['User']['name']
+else:
+    # Pede o nome do usuário
+    name = input("Qual é o seu nome? ")
+
+    # Cria a seção 'User' no arquivo config.ini
+    if 'User' not in config:
+        config['User'] = {}
+
+    # Atualiza o nome do usuário no arquivo config.ini
+    config['User']['name'] = name
+    with open('config.ini', 'w') as configfile:
+        config.write(configfile)
 
 # Bem-vindo
 print(f'Bem-vindo, {name}!')
+
 
 # Loop principal do assistente virtual
 while True:
