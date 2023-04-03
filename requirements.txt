@@ -1,2 +1,2 @@
-w3m==0.5.3
-datetime==4.3
+w3m
+datetime
