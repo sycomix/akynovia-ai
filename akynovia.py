@@ -14,12 +14,10 @@ if 'User' in config and 'name' in config['User']:
 else:
     # Pede o nome do usuário
     name = input("Qual é o seu nome? ")
-
-    # Cria a seção 'User' no arquivo config.ini
+    
+    # Substitui o valor existente ou cria a seção 'User' no arquivo config.ini
     if 'User' not in config:
         config['User'] = {}
-
-    # Atualiza o nome do usuário no arquivo config.ini
     config['User']['name'] = name
     with open('config.ini', 'w') as configfile:
         config.write(configfile)
