@@ -1,17 +1,29 @@
-Hi there 👋
 
-Here's some basic information about the Akynovia-ai project:
+#Description:
 
-- 🤖 Akynovia-ai is a Python script that uses the W3M browser to display information in the Linux terminal.
-- 💻 To use the virtual assistant, simply run the `akynovia.py` file in a terminal. The script will start and display a welcome message, followed by a prompt where you can enter commands.
-- 🚀 The Akynovia-ai project is open for collaboration and contributions from the community.
-- 📝 The Akynovia-ai project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License.
+Akynovia-ai is a virtual assistant for Linux terminal based on the W3M browser that can perform various useful functions, including web searches, checking weather forecasts, and providing time information. The script is easy to use and can be easily customized through a simple configuration file.
 
-Here are some ideas to get you started:
+How it works:
 
-- 🔭 I’m currently working on improving the AKYNOVIA virtual assistant and adding new features.
-- 🌱 I’m currently learning more about natural language processing and machine learning.
-- 👯 I’m looking to collaborate on open source projects related to Python and artificial intelligence.
-- 💬 Ask me about the Akynovia-ai project or any questions related to Python and AI.
-- 📫 You can reach me by sending an email.
-- ⚡ Fun fact: The name "Akynovia-ai" is derived from "intelligence assistant" and "Akynovia" - where Akynovia is the name of a character in a book I'm working on about artificial intelligence.
+Akynovia-ai is a Python script that uses the W3M browser to display information in the Linux terminal. To use the virtual assistant, simply run the akynovia.py file in a terminal. The script will start and display a welcome message, followed by a prompt where you can enter commands.
+
+Akynovia-ai currently supports the following functions:
+
+Web search: allows searching for information on the web using Google.
+Weather forecast: displays information about the weather forecast for a specified city.
+Current time: displays the current system time.
+The script is easily customizable through a configuration file called config.ini. The configuration file allows you to add new functions to the virtual assistant and configure existing options, such as the default search engine.
+
+#Requirements:
+
+To run Akynovia-ai, you need to have Python 3 installed on your system and also the W3M browser. To install W3M on Debian 11, you can use the following command:
+
+• sudo apt-get install w3m
+To install Python dependencies, simply run the following command:
+
+• pip3 install -r requirements.txt
+
+To run the script, simply navigate to the directory where the akynovia.py file is located and enter the following command in the terminal:
+python3 akynovia.py
+
+Hope that helps!
