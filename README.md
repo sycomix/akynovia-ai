@@ -1,7 +1,7 @@
 
 # Description:
 
-Akynovia-ai is a virtual assistant for Linux terminal based on the W3M browser that can perform various useful functions, including web searches, checking weather forecasts, and providing time information. The script is easy to use and can be easily customized through a simple configuration file.
+Akynovia-ai is a virtual assistant for Linux terminal that can perform various useful functions, including web searches, checking weather forecasts, and providing time information. The script is easy to use and can be easily customized through a simple configuration file.
 
 How it works:
 
